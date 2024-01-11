@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC | Order KFC Chicken Online & Find Restaurants</title>
+    <link rel="icon" href="image/logo1.jpg" type="image/jpg">
+
+    <!-- jQuery -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <!-- Splide -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <!-- <div class="preloader">
+        <img src="image/kfc.gif" alt="Loading..." / height="500px">
+    </div> -->
+
+    <!-- Header -->
+    <section id="header" style="z-index: 1;">
+        <div id="dv1">
+            <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Allow location access for local store menu
+            and promos <a href="#"><button type="button" class="btn1"><b>Set Location</b></button></a>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Navbar -->
+    <section id="nav" style="z-index: 1;">
+        <div style="width: 0%;" id="dv2">
+            <a href="index.html"><img src="image/logobg.png" alt="" height="30px" id="imlogo"></a>
+        </div>
+        <div style="width: 70%;" id="dv3">
+            <ul>
+                <li>
+                    <h4><a href="menu.html"><b>Menu</b></a></h4>
+                </li>
+                <li id="li"><a href="#dv8"><b>Deals</b></a></li>
+            </ul>
+        </div>
+        <div style="width: 30%;" id="dv4">
+            <ul>
+                <li><a href="signin.html"><b><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;Sign In</b></a>
+                </li>
+                <li><a href="menu.html"><img src="image/10002.svg" alt="" id="img0002"></a></li>
+            </ul>
+        </div>
+        <i id="ic" class="fa fa-bars" aria-hidden="true" onclick="ic()"></i>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="sc3" style="z-index: 1;">
+        <div id="dv5">
+            <p><b>LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</b><a href="menu.html"><button class="btn1"><b>Start
+                            Order</b></button></a></p>
+        </div>
+    </section>
+
+
+    <!-- Carousel -->
+    <section id="carousel" style="z-index: 0;">
+        <a href="menu.html"><img alt="" id="kfc"></a>
+    </section>
+
+
+    <!-- Card 1 -->
+    <section id="card1" style="z-index: 1;">
+        <div id="dv6">
+            <p>BROWSE CATEGORIES<span>
+                    <hr width="68%">
+                </span></p>
+        </div>
+        <div class="dv7">
+            <a href="menu.html">
+                <p><img src="image/10001.jpg" alt=""><br><br>PERI PERI CHICKEN
+                </p>
+            </a>
+            <a href="menu.html">
+                <p><img src="image/10002.jpg" alt=""><br><br>VALUE SNACKERS
+                </p>
+            </a>
+            <a href="menu.html">
+                <p><img src="image/10003.jpg" alt=""><br><br>CHICKEN ROLLS
+                </p>
+            </a>
+            <a href="menu.html">
+                <p><img src="image/10004.jpg" alt=""><br><br>CHICKEN BUCKETS
+                </p>
+            </a>
+        </div>
+        <div class="dv7">
+            <a href="menu.html">
+                <p><img src="image/10005.jpg" alt=""><br><br>BIRIYANI BUCKETS
+                </p>
+            </a>
+            <a href="menu.html">
+                <p><img src="image/10006.jpg" alt=""><br><br>BOX MEALS
+                </p>
+            </a>
+            <a href="menu.html">
+                <p><img src="image/10007.jpg" alt=""><br><br>BURGERS
+                </p>
+            </a>
+            <a href="menu.html">
+                <p
+                    style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: lighter;">
+                    <img src="image/owner.jpg" alt=""><br><br>View All Menu <i class="fa fa-long-arrow-right"
+                        aria-hidden="true"></i>
+
+                </p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Splide -->
+    <section id="image-carousel" class="splide carousel1" aria-label="Beautiful Images">
+        <div id="dv8">
+            <img src="image/10019.svg" alt="" id="img0019">
+            <span id="sp1">
+                <p>OFFERS & DEALS</p>
+            </span>
+            <div class="splide__track">
+                <div class="splide__list">
+                    <div class="splide__slide">
+                        <img src="image/10016.jpg" alt=""><br>
+                        <p>1PC FREE CHICKEN ZINGER.. <br>
+                            <span><b>Add 2pc Hot n Crispy Chicken at just Rs 99 on min cart value of Rs 499
+                                    or...</b></span><br><br>
+                            <button type="button" class="btn1 button1" id="butn1">Redeem Now</button>
+                        </p>
+
+                    </div>
+                    <div class="splide__slide">
+                        <img src="image/10017.jpg" alt="">
+                        <p>ADD 2PC HOT N CRISPY... <br>
+                            <span><b>Upto Rs 100 off on min cart value of Rs 699 or more . Applicable on
+                                    4th...</b></span><br><br><button type="button" class="btn1 button1 bton1"
+                                id="butn2">Redeem Now</button>
+                        </p>
+                    </div>
+                    <div class="splide__slide">
+                        <img src="image/10018.jpg" alt="">
+                        <p>UPTO RS.100 OFF ON MIN... <br>
+                            <span><b>Add 2pc Hot n Crispy Chicken at just Rs 99 on min cart value of Rs
+                                    499..</b></span><br><br><button type="button" class="btn1 button1 bton1" id="butn3">Redeem
+                                Now</button>
+                        </p>
+                    </div>
+                    <div class="splide__slide">
+                        <img src="image/10011.jpg" alt="">
+                        <p>GET FLAT RS.75 OFF ON A... <br>
+                            <span><b>Get flat Rs.75 off on a cart value of 599 or above.</b></span><br><br><button
+                                type="button" class="btn1 button1" id="butn4">Redeem Now</button>
+                        </p>
+                    </div>
+                    <div class="splide__slide">
+                        <img src="image/10012.jpg" alt="">
+                        <p>FREE POPCORN ON A CART.. <br>
+                            <span><b>Free Popcorn (Med) on a cart value of 499 or more. Friday
+                                    only.</b></span><br><br><button type="button" class="btn1 button1 bton1" id="butn5">Redeem
+                                Now</button>
+                        </p>
+                    </div>
+                    <div class="splide__slide">
+                        <img src="image/10013.jpg" alt="">
+                        <p>FREE 1PC CHICKEN ON A.. <br>
+                            <span><b>Free 1pc Chicken on a cart value of 499 or more. Friday
+                                    only.</b></span><br><br><button type="button" class="btn1 button1" id="butn6">Redeem
+                                Now</button>
+                        </p>
+                    </div>
+                    <div class="splide__slide">
+                        <img src="image/10014.jpg" alt="">
+                        <p>FREE 3PC STRIPS ON A CART.. <br>
+                            <span><b>Free 3pc Strips on a cart value of 499 or more. Friday
+                                    only.</b></span><br><br><button type="button" class="btn1 button1" id="butn7">Redeem
+                                Now</button>
+                        </p>
+                    </div>
+                    <div class="splide__slide">
+                        <img src="image/10015.jpg" alt="">
+                        <p>FREE VEG ZINGER ON A CART.. <br>
+                            <span><b>Free Veg Zinger on a cart value of 499 or more. Friday
+                                    only.</b></span><br><br><button type="button" class="btn1 button1" id="butn8">Redeem
+                                Now</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section id="footer">
+        <div id="dv9">
+            <div id="dv10">
+                <a href="#"><img src="image/kfcmlogo.svg" alt=""></a>
+            </div>
+            <div class="dv10" id="f1">
+                <h5>Legal</h5>
+                <ul>
+                    <li><a href="">Terms & Condition</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Disclaimer</a></li>
+                    <li><a href="">Caution Notice</a></li>
+                </ul>
+            </div>
+            <div class="dv10" id="f2">
+                <h5>KFC India</h5>
+                <ul>
+                    <li><a href="">About KFC</a></li>
+                    <li><a href="">KFC Care</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Our Golden Past</a></li>
+                </ul>
+            </div>
+            <div class="dv10" id="f3">
+                <h5>KFC Food</h5>
+                <ul>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Order Lookup</a></li>
+                    <li><a href="">Gift Card</a></li>
+                    <li><a href="">Nutrition & Allergen</a></li>
+                </ul>
+            </div>
+            <div class="dv10" id="f4">
+                <h5>Support</h5>
+                <ul>
+                    <li><a href="">Get Help</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">KFC Feedback</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="dv10" id="f5">
+                <ul>
+                    <li><a href=""><i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp;Find a KFC</a></li>
+                </ul>
+            </div>
+            <div id="dv11" class="f6">
+                <a href="https://play.google.com/store/apps/details?id=com.yum.kfc"><img src="image/gp.svg" alt=""></a>
+                <a href="https://apps.apple.com/in/app/kfc-india-online-ordering-app/id915824379"><img
+                        src="image/mac.svg" alt=""></a>
+            </div>
+        </div>
+        <div id="dv12">
+            <p>Copyright © KFC Corporation 2023 All Rights Reserved</p>
+            <ul>
+                <li><a href="https://www.instagram.com/kfcindia_official/"><i class="fa fa-instagram" aria-hidden="true"
+                            style="color: grey;"></i></a></li>
+                <li><a href="https://www.facebook.com/KFCIndia"><i class="fa fa-facebook" aria-hidden="true"
+                            style="color: grey;"></i></a></li>
+                <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2FKFC_India"><i
+                            class="fa fa-twitter" aria-hidden="true" style="color: grey;"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Modals -->
+    <div id="modal1">
+        <div id="mc1">
+            <span class="x1">&times;</span>
+            <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">OFFERS & DEALS</h2>
+            <hr>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">1 PC FREE CHICKEN ZINGER ON A CART
+                VALUE OF 499 OR ABOVE ON FIRST ORDER. ONLY FOR REGISTERED USERS.</h4>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: grey;">1 Pc free Chicken Zinger
+                on a cart value of 499 or above on first order. Only for registered users.</p><br>
+            <button class="bn1">Redeem Now</button>
+        </div>
+    </div>
+
+
+    <div id="modal2">
+        <div id="mc1">
+            <span class="x1">&times;</span>
+            <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">OFFERS & DEALS</h2>
+            <hr>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">ADD 2 PC HOT N CRISPY CHICKEN AT
+                JUST RS 99 ON MIN CART VALUE OF RS 499 OR MORE. APPLICABLE ON 2ND & 3RD ORDER FOR SIGNED IN USER.</h4>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: grey;">Add 2 Pc Hot n Crispy
+                Chicken at just Rs 99 on min cart value of Rs 499 or more. Applicable on 2nd & 3rd order for signed in
+                user.</p><br>
+            <button class="bn1">Redeem Now</button>
+        </div>
+    </div>
+
+
+    <div id="modal3">
+        <div id="mc1">
+            <span class="x1">&times;</span>
+            <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">OFFERS & DEALS</h2>
+            <hr>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">UPTO RS 100 OFF ON MIN CART VALUE
+                OF RS 699 OR MORE . APPLICABLE ON 4TH ORDER ONWARDS FOR SIGNED IN USER.</h4>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: grey;">Upto Rs 100 off on min
+                cart value of Rs 699 or more . Applicable on 4th order onwards for signed in user.</p><br>
+            <button class="bn1">Redeem Now</button>
+        </div>
+    </div>
+
+    <div id="modal4">
+        <div id="mc1">
+            <span class="x1">&times;</span>
+            <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">OFFERS & DEALS</h2>
+            <hr>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">GET FLAT RS.75 OFF ON A CART VALUE
+                OF 599 OR ABOVE</h4>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: grey;">Get flat Rs.75 off on a
+                cart value of 599 or above.</p><br>
+            <button class="bn1">Redeem Now</button>
+        </div>
+    </div>
+
+    <div id="modal5">
+        <div id="mc1">
+            <span class="x1">&times;</span>
+            <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">OFFERS & DEALS</h2>
+            <hr>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">FREE POPCORN (MED) ON A CART VALUE
+                OF 499 OR MORE. FRIDAY ONLY.</h4>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: grey;">Free Popcorn (Med) on a
+                cart value of 499 or more. Friday only.</p><br>
+            <button class="bn1">Redeem Now</button>
+        </div>
+    </div>
+
+    <div id="modal6">
+        <div id="mc1">
+            <span class="x1">&times;</span>
+            <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">OFFERS & DEALS</h2>
+            <hr>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">FREE 1PC CHICKEN ON A CART VALUE
+                OF 499 OR MORE. FRIDAY ONLY.</h4>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: grey;">Free 1pc Chicken on a
+                cart value of 499 or more. Friday only.</p><br>
+            <button class="bn1">Redeem Now</button>
+        </div>
+    </div>
+
+    <div id="modal7">
+        <div id="mc1">
+            <span class="x1">&times;</span>
+            <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">OFFERS & DEALS</h2>
+            <hr>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">FREE 3PC STRIPS ON A CART VALUE OF
+                499 OR MORE. FRIDAY ONLY.</h4>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: grey;">Free 3pc Strips on a
+                cart value of 499 or more. Friday only.</p><br>
+            <button class="bn1">Redeem Now</button>
+        </div>
+    </div>
+
+    <div id="modal8">
+        <div id="mc1">
+            <span class="x1">&times;</span>
+            <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">OFFERS & DEALS</h2>
+            <hr>
+            <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">FREE VEG ZINGER ON A CART VALUE OF
+                499 OR MORE. FRIDAY ONLY.</h4>
+            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: grey;">Free Veg Zinger on a
+                cart value of 499 or more. Friday only.</p><br>
+            <button class="bn1">Redeem Now</button>
+        </div>
+    </div>
+
+
+
+    <div id="mlist">
+        <span id="x2">&times;</span><br><br>
+        <b style="font-size: 25px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">LET'S GET COOKIN'</b><br><br>
+        <i class="fa fa-user-circle-o" aria-hidden="true"></i><a href="signin.html">&nbsp;Sign In / Sign Up <i class="fa fa-arrow-right" aria-hidden="true"></i></a><br><br>
+        <p><a href="menu.html">MENU <img src="menuimg/10050.jpg" alt="" height="100px" width="auto"></a></p>
+        <p><a href="index.html">DEALS <img src="image/10015.jpg" alt="" height="100px" width="auto"></a></p><br>
+        <li>Get Help</li>
+        <hr width="80%">
+        <li>Contact Us</li>
+        <hr width="80%">
+        <li>KFC Feedback</li>
+        <hr width="80%">
+        <li>Privacy Policy</li>
+    </div>
+</body>
+<script>
+
+    // Navbar-----------------------------------
+    $(function(){
+        $("#ic").click(function(){
+            $("#mlist").slideToggle()
+        })
+        $("#x2").click(function(){
+            $("#mlist").slideToggle()
+        })
+    })
+    
+    // ------------------------------------------
+
+    // Carousel----------------------------------
+    var img = document.getElementById("kfc")
+    arr = ["10004.webp", "10005.webp", "10003.webp"]
+    z = 0
+    img.src = arr[z]
+    function atp() {
+        z += 1
+
+        if (z > arr.length - 1) {
+            z = 0
+        }
+        img.src = arr[z]
+    }
+
+    setInterval(atp, 2000)
+    // -------------------------------------------
+
+    // Splide-------------------------------------
+    var splide = new Splide('.splide', {
+        // type: 'loop',
+        perPage: 4,
+        perMove: 1,
+    });
+
+    splide.mount();
+    // --------------------------------------------
+
+    // Modal 1-------------------------------------
+    $(function () {
+        $("#butn1").click(function () {
+            $("#modal1").show()
+        })
+        $(".x1").click(function () {
+            $("#modal1").hide()
+        })
+    })
+    $(function () {
+        $("#butn2").click(function () {
+            $("#modal2").show()
+        })
+        $(".x1").click(function () {
+            $("#modal2").hide()
+        })
+    })
+    $(function () {
+        $("#butn3").click(function () {
+            $("#modal3").show()
+        })
+        $(".x1").click(function () {
+            $("#modal3").hide()
+        })
+    })
+    $(function () {
+        $("#butn4").click(function () {
+            $("#modal4").show()
+        })
+        $(".x1").click(function () {
+            $("#modal4").hide()
+        })
+    })
+    $(function () {
+        $("#butn5").click(function () {
+            $("#modal5").show()
+        })
+        $(".x1").click(function () {
+            $("#modal5").hide()
+        })
+    })
+    $(function () {
+        $("#butn6").click(function () {
+            $("#modal6").show()
+        })
+        $(".x1").click(function () {
+            $("#modal6").hide()
+        })
+    })
+    $(function () {
+        $("#butn7").click(function () {
+            $("#modal7").show()
+        })
+        $(".x1").click(function () {
+            $("#modal7").hide()
+        })
+    })
+    $(function () {
+        $("#butn8").click(function () {
+            $("#modal8").show()
+        })
+        $(".x1").click(function () {
+            $("#modal8").hide()
+        })
+    })
+    // ---------------------------------------------
+
+    // Loader---------------------------------------
+    document.addEventListener("DOMContentLoaded", function () {
+        const preloader = document.querySelector(".preloader");
+        const preloaderDuration = 5000;
+        preloader.style.display = "flex";
+        setTimeout(function () {
+            preloader.style.display = "none";
+        }, preloaderDuration);
+    });
+    // ----------------------------------------------
+
+
+    // x=1
+    // function ic(){
+    //     var z = document.getElementById('mlist')
+    //     x+=1
+    //     if((x%2) == 0){
+    //         z.style.display="block"
+    //     }
+    //     else{
+    //         z.style.display="none"
+    //     }
+        
+    // }
+</script>
+
+</html>

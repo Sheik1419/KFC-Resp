@@ -1,0 +1,913 @@
+/* Homepage */
+* {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+#val {
+    transition: 5s;
+}
+
+#pc,
+#vs,
+#cr,
+#cb,
+#bb,
+#bm,
+#bg,
+#sk,
+#bv {
+    padding-top: 100px;
+}
+
+/* Header */
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+}
+
+#header i {
+    font-size: 20px;
+    padding: 0% 0.5%;
+    color: red;
+}
+
+#header button {
+    background-color: black;
+    color: white;
+    width: 10%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 1%;
+}
+
+#header button:hover {
+    background-color: #bd0123;
+    color: black;
+    transition: 1s;
+    border: 1px solid black;
+}
+
+/* ------------------------------------------------ */
+
+/* Navbar */
+#nav {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 13px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+#ic {
+    display: none;
+    cursor: pointer;
+    margin: 25px;
+}
+
+#nav #dv2 {
+    margin: 25px 100px;
+    height: 30px;
+}
+
+#nav div ul {
+    display: flex;
+}
+
+#nav ul li {
+    list-style-type: none;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav h4 {
+    margin: 0;
+}
+
+#nav #dv3 {
+    padding: 1.5% 0% 0% 0%;
+}
+
+#nav #dv3 #li {
+    margin-left: 5%;
+}
+
+#nav #dv4 li {
+    padding: 8% 0% 0% 5%;
+}
+
+#nav #dv4 img {
+    margin-left: 100%;
+    margin-top: -45%;
+}
+
+#nav #dv4 i {
+    font-size: 18px;
+}
+
+#nav a:hover {
+    color: #ff0331;
+    transition: 200ms;
+}
+
+#menu {
+    cursor: pointer;
+}
+
+/* ------------------------------------------------ */
+
+/* Section 3 */
+#sc3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    padding-top: 0px;
+}
+
+#sc3 p {
+    text-align: center;
+    color: white;
+    padding: 1.2%;
+}
+
+#sc3 button {
+    height: 35px;
+    width: 9%;
+    background-color: rgb(168, 0, 0);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-left: 1%;
+}
+
+#sc3 button:hover {
+    background-color: white;
+    color: #bd0123;
+    transition: 1s;
+}
+
+#sc3 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ----------------------------------------------- */
+
+/* Carousel */
+#carousel {
+    position: relative;
+}
+
+#carousel img {
+    height: 450px;
+    width: 100%;
+}
+
+/* ----------------------------------------------- */
+
+/* Card */
+#card1 {
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 100px;
+}
+
+#card1 #dv6 p {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 15%;
+}
+
+#card1 #dv6 hr {
+    margin-left: 32%;
+    margin-top: -3.2%;
+}
+
+#card1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#card1 .dv7 {
+    text-align: center;
+    display: flex;
+    width: 87%;
+    margin-left: 13%;
+}
+
+.dv7 img {
+    width: 80%;
+}
+
+/* -------------------------------------------- */
+
+/* Carousel 1 */
+.carousel1 {
+    height: 800px;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    margin-top: 8%;
+}
+
+.carousel1 #sp1 p {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-left: 10%;
+    padding: 5% 0% 0% 0%;
+}
+
+.carousel1 #img0019 {
+    margin-left: 10%;
+}
+
+.splide__slide img {
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 80%;
+    height: 250px;
+}
+
+.splide__slide p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 50%;
+    text-align: center;
+}
+
+.splide__progress__bar {
+    height: 3px;
+    background: #ccc;
+}
+
+.carousel1 .splide__slide p {
+    color: white;
+    font-size: 20px;
+}
+
+.carousel1 .splide__slide a {
+    text-decoration: none;
+}
+
+.carousel1 .splide__slide p span {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: center;
+}
+
+.carousel1 .btn1 {
+    color: white;
+    background-color: #bd0123;
+    /* width: 70%;
+    height: 40px; */
+    border-radius: 15px;
+    border: none;
+}
+
+.carousel1 .btn1:hover {
+    color: #bd0123;
+    background-color: white;
+    transition: 600ms;
+    font: bold;
+}
+
+/* ------------------------------------------ */
+
+/* Footer */
+#footer {
+    background-color: rgb(27, 27, 27);
+    height: 400px;
+    width: 100%;
+}
+
+#footer #dv9 {
+    display: flex;
+}
+
+#footer div li,
+h5 {
+    color: grey;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+#footer div a {
+    color: grey;
+    text-decoration: none;
+}
+
+#footer li a:hover {
+    color: white;
+}
+
+#footer li a i {
+    color: #bd0123;
+    font-size: 20px;
+}
+
+#footer #dv9 {
+    padding: 3%;
+}
+
+#footer .dv10 {
+    padding-left: 2%;
+}
+
+#footer #dv11 {
+    padding: 2% 0% 0% 7%;
+}
+
+#footer h5 {
+    margin-left: 30%;
+}
+
+#footer #dv10 {
+    padding: 3%;
+}
+
+#footer #dv12 {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: grey;
+    display: flex;
+}
+
+#footer #dv12 p {
+    margin-left: 40%;
+}
+
+#footer #dv12 ul {
+    display: flex;
+    margin-left: 15%;
+}
+
+#footer #dv12 li {
+    padding-left: 50%;
+}
+
+/* ------------------------------------------ */
+
+/* Modal 2 */
+#modal1,
+#modal2,
+#modal3,
+#modal4,
+#modal5,
+#modal6,
+#modal7,
+#modal8 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#mc1 {
+    background-color: #fefefe;
+    width: 40%;
+    margin: auto;
+    padding: 30px 30px 50px 30px;
+    border: 1px solid #888;
+}
+
+.x1 {
+    float: right;
+    font-size: 30px;
+    color: grey;
+    font-weight: bolder;
+}
+
+.x1:hover {
+    color: black;
+    cursor: pointer;
+}
+
+/* ------------------------------------------ */
+
+/* button */
+button {
+    cursor: pointer;
+}
+
+/* Page Button */
+.btn1 {
+    width: 70%;
+    height: 40px;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.btn1:hover {
+    color: black;
+}
+
+.btn1:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+.btn1:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* --------------- */
+
+/* Modal Button */
+.bn1 {
+    width: 20%;
+    height: 40px;
+    margin: 0.5em;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.bn1:hover {
+    color: red;
+    border: 1px solid red;
+}
+
+.bn1:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+.bn1:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* ------------------------------------------ */
+
+/* Sign In */
+#sec1 {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5%;
+    color: grey;
+    line-height: 30px;
+}
+
+#sec1 .button {
+    width: 8%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(162, 161, 161);
+    color: black;
+    border: none;
+}
+
+#sec1 .button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+#sec1 #bn3 {
+    width: 20%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.input {
+    width: 30%;
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    min-height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+}
+
+.input:focus {
+    border-bottom: 2px solid black;
+    border-radius: 4px 4px 2px 2px;
+}
+
+.input:hover {
+    outline: 1px solid lightgrey;
+}
+
+.error {
+    color: red;
+}
+
+/* ------------------------------------------ */
+
+/* Loader */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* --------------------------- */
+
+
+/* M-List */
+#mlist {
+    position: fixed;
+    display: none;
+    background-color: #ffffff;
+    width: 90%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    z-index: 100;
+    padding: 5%;
+    margin-left: -2%;
+    text-align: center;
+    font-size: 15px;
+}
+
+#mlist li {
+    list-style-type: none;
+    color: grey;    
+}
+
+#mlist p img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#mlist a {
+    color: black;
+}
+
+#mlist p {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#mlist #x2 {
+    font-size: 40px;
+}
+
+#mlist #x2:hover {
+    color: grey;
+}
+
+/* --------------------------------- */
+
+
+/* Responsive */
+/* Home Page */
+/* Header */
+@media screen and (max-width:600px) {
+    #header {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #header i {
+        font-size: 15px;
+    }
+
+    #header button {
+        display: block;
+        width: 40%;
+        height: 25px;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+
+/* Navbar */
+@media screen and (max-width:600px) {
+    #nav {
+        width: 100%;
+        height: 60px;
+    }
+
+    #dv2 #imlogo {
+        height: 25px;
+    }
+
+    #dv3,
+    #dv4 {
+        display: none;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+        background-color: rgb(173, 172, 172);
+    }
+
+    #ic {
+        display: block;
+        font-size: 25px;
+        margin-left: auto;
+    }
+
+    #nav #dv2 {
+        display: block;
+        margin: 20px;
+    }
+
+    #dv3,
+    #dv4 a {
+        display: block;
+        float: none;
+    }
+
+}
+
+/* SC3 */
+@media screen and (max-width:600px) {
+    #sc3 {
+        width: 100%;
+        height: 50px;
+    }
+
+    #sc3 p {
+        font-size: 10px;
+    }
+
+    #sc3 button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 20px;
+    }
+}
+
+
+/* Carousel */
+@media screen and (max-width:600px) {
+    #carousel img {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+
+/* Card 1 */
+@media screen and (max-width:600px) {
+    #card1 {
+        margin-top: 30px;
+    }
+
+    #card1 #dv6 p {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    #card1 #dv6 hr {
+        display: none;
+    }
+
+    #card1 .dv7 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #card1 .dv7 p img {
+        width: 60%;
+    }
+}
+
+
+/* Splide */
+@media screen and (max-width:600px) {
+    .carousel1 {
+        height: 450px;
+        width: 100%;
+    }
+
+    .carousel1 #sp1 p {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .splide__slide img {
+        width: 99%;
+        height: 100px;
+        margin-left: 10%;
+    }
+
+    .splide__slide p {
+        width: 100%;
+        text-align: center;
+        font-size: 11px !important;
+        margin-left: 10%;
+    }
+
+    .splide__slide span {
+        display: none;
+    }
+
+    .carousel1 .btn1 {
+        color: white;
+        background-color: #bd0123;
+        font-size: 9px;
+        width: 80%;
+        height: 25px;
+        border-radius: 15px;
+        border: none;
+    }
+
+    .carousel1 #img0019 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Footer */
+@media screen and (max-width:600px) {
+    #footer {
+        height: 900px;
+        width: 100%;
+    }
+
+    #footer #dv9 {
+        display: block;
+        padding: 0%;
+        text-align: center;
+    }
+
+    #footer #dv9 h5 {
+        margin-left: 0%;
+    }
+
+    #f5 {
+        margin-top: 20px;
+    }
+
+    #dv10 img {
+        margin-top: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #footer .dv10 ul li {
+        font-size: 12px;
+    }
+
+    #footer .dv10 ul{
+        padding: 0%;
+    }
+    
+    #footer .dv10 {
+        padding-left: 0%;
+    }
+
+    #footer #dv12 {
+        display: block;
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    #footer #dv12 p {
+        margin-left: 0%;
+        font-size: 12px;
+    }
+
+    #footer #dv12 ul {
+        margin-left: 30%;
+    }
+
+    #footer #dv12 li {
+        padding-left: 5%;
+    }
+
+}
+
+/* Modal */
+@media screen and (max-width:600px) {
+    #modal1,
+    #modal2,
+    #modal3,
+    #modal4,
+    #modal5,
+    #modal6,
+    #modal7,
+    #modal8{
+        height: auto;
+        width: 100%;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    #mc1{
+        width: auto;
+        margin: auto;
+
+    }
+
+    .x1{
+        float: right;
+        font-size: 25px;
+    }
+
+    .bn1{
+        width: 30%;
+        height: 25px;
+        font-weight: lighter;
+        font-size: 11px;
+    }
+}
+
+/* Sign In Page */
+@media screen and (max-width:600px) {
+    #sec1{
+        width: 100%;
+    }
+
+    #sec1 .button{
+        width: 25%;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    #sec1 #bn3{
+        width: 60%;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .input{
+        width: 70%;
+        font-size: 13px;
+    }
+}

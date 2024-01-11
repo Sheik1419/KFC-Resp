@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC | Sign In</title>
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- jQuery -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body>
+    <section id="sec1" data-aos="fade-up" data-aos-duration="1000">
+        <a href="index.html"><img src="image/logobg.png" alt="" height="30px"></a>
+        <div>
+            <p><b>Sign In / Sign Up</b></p>
+            <p
+                style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 20px; color: black;">
+                WELCOME, <br>THANK YOU FOR BEING WITH US...!</p>
+            <p>Please Let Us Know You More</p><br>
+
+            <form action="" class="contact-form" id="c-form">
+                <div class="c-form-in">
+                    <div class="c-form-left">
+                        <div class="input-group">
+                            <input type="text" placeholder="User Name" id="fname" class="input" required />
+                            <div class="error"></div>
+                        </div><br>
+                        <div class="input-group">
+                            <input type="email" placeholder="Email Address" id="email" class="input" required />
+                            <div class="error"></div>
+                        </div><br>
+                    </div>
+
+                    <button type="submit" onclick="redirect()" id="sub" class="button">Submit</button><br>
+            </form>
+            Or <br>
+            <a href="index.html"><button type="button" id="bn3">Skip, Ask Me Later</button></a>
+
+        </div>
+    </section>
+</body>
+
+
+<script>
+    // Form Validation-------------------------------
+    const form = document.querySelector("#c-form");
+    const fname = document.querySelector("#fname");
+    const email = document.querySelector("#email");
+    const sub = document.querySelector("#sub");
+
+
+    sub.addEventListener("click", (e) => {
+        if (!validateInputs()) {
+            e.preventDefault();
+        }
+    });
+
+
+    function validateInputs() {
+        const fnameVal = fname.value.trim();
+        const emailVal = email.value.trim();
+        let success = true;
+
+
+        if (fnameVal === "") {
+            success = false;
+            setError(fname, " * First name is required");
+        } else {
+            setSuccess(fname);
+        }
+        if (emailVal === "") {
+            success = false;
+            setError(email, " * Email is required");
+        } else if (!validateEmail(emailVal)) {
+            success = false;
+            setError(email, " * Please enter a valid email");
+        } else {
+            setSuccess(email);
+        }
+
+        return success;
+    }
+
+    function setError(element, message) {
+        const inputGroup = element.parentElement;
+        const errorElement = inputGroup.querySelector(".error");
+
+        errorElement.innerText = message;
+        inputGroup.classList.add("error");
+        inputGroup.classList.remove("success");
+    }
+
+    function setSuccess(element) {
+        const inputGroup = element.parentElement;
+        const errorElement = inputGroup.querySelector(".error");
+
+        errorElement.innerText = "";
+        inputGroup.classList.add("success");
+        inputGroup.classList.remove("error");
+    }
+
+    const validateEmail = (email) => {
+        return String(email)
+            .toLowerCase()
+            .match(
+                /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+            );
+    };
+    // ----------------------------------------------
+
+    // AOS-------------------------------------------
+    AOS.init();
+    // ----------------------------------------------
+
+</script>
+
+
+</html>

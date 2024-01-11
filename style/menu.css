@@ -1,0 +1,979 @@
+/* Homepage */
+* {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#val {
+    transition: 5s;
+}
+
+#pc,
+#vs,
+#cr,
+#cb,
+#bb,
+#bm,
+#bg,
+#sk,
+#bv {
+    padding-top: 100px;
+}
+
+/* Navbar */
+#nav {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 13px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+#ic {
+    display: none;
+    cursor: pointer;
+    margin: 25px;
+}
+
+#nav #dv2 {
+    margin: 25px 100px;
+    height: 30px;
+}
+
+#nav div ul {
+    display: flex;
+}
+
+#nav ul li {
+    list-style-type: none;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav h4 {
+    margin: 0;
+}
+
+#nav #dv3 {
+    padding: 1.5% 0% 0% 0%;
+}
+
+#nav #dv3 #li {
+    margin-left: 5%;
+}
+
+#nav #dv4 li {
+    padding: 8% 0% 0% 5%;
+}
+
+#nav #dv4 img {
+    margin-left: 100%;
+    margin-top: -45%;
+}
+
+#nav #dv4 i {
+    font-size: 18px;
+}
+
+#nav a:hover {
+    color: #ff0331;
+    transition: 200ms;
+}
+
+#menu {
+    cursor: pointer;
+}
+
+/* ------------------------------------------------ */
+
+/* Section 3 */
+#sc3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    padding-top: 0px;
+}
+
+#sc3 p {
+    text-align: center;
+    color: white;
+    padding: 1.2%;
+}
+
+#sc3 button {
+    height: 35px;
+    width: 9%;
+    background-color: rgb(168, 0, 0);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-left: 1%;
+}
+
+#sc3 button:hover {
+    background-color: white;
+    color: #bd0123;
+    transition: 1s;
+}
+
+#sc3 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* ----------------------------------------------- */
+
+/* Menupage */
+.sc4 {
+    display: flex;
+}
+
+#dv15 {
+    position: sticky;
+    top: 80px;
+}
+
+#dv13 h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 29%;
+    font-size: 30px;
+}
+
+#dv13 ul li {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 15px;
+    padding: 2.5% 0%;
+    margin-left: 23%;
+}
+
+#dv13 a {
+    text-decoration: none;
+    color: rgb(110, 109, 109);
+}
+
+#dv13 a:hover {
+    color: #E4002B;
+}
+
+#dv13 img {
+    margin-left: 30%;
+}
+
+#hr02 {
+    display: none;
+}
+
+/* ----------------------------------------------- */
+
+/* Div 16 */
+#d01 {
+    display: none;
+}
+
+#dv16 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+
+/* #inp1 {
+    margin-top: 5%;
+    border-radius: 15px;
+    height: 30px;
+    width: 30%;
+
+} */
+
+.sp1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.d1 .sp2 {
+    font-size: 12px;
+    color: grey;
+}
+
+.d1 p {
+    line-height: 25px;
+}
+
+#dv16 button i {
+    font-size: 20px;
+}
+
+#dv16 .btn2 {
+    width: 30%;
+    height: 40px;
+    background-color: #bd0123;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#dv16 .btn2:hover {
+    background-color: white;
+    color: #bd0123;
+    border: 1px solid #bd0123;
+    transition: 1s ease-in-out;
+}
+
+#dv16 .btn3 {
+    width: 50%;
+    height: 40px;
+    background-color: #bd0123;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#dv16 .btn3:hover {
+    background-color: white;
+    color: #bd0123;
+    border: 1px solid #bd0123;
+    transition: 1s;
+}
+
+#dv16 .div1 {
+    display: flex;
+    width: 40%;
+}
+
+#dv16 .div2 {
+    margin-top: 50px;
+    display: flex;
+    width: 40%;
+}
+
+
+#dv16 .div3 {
+    display: flex;
+    width: 40%;
+}
+
+#dv16 .div4 {
+    margin-top: 50px;
+    display: flex;
+    width: 40%;
+}
+
+
+#input {
+    margin-top: 3%;
+    width: 25%;
+    height: 30px;
+    background-color: #f5f5f5;
+    color: #242424;
+    padding: .15rem .5rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    line-height: 1.15;
+    box-shadow: 0px 10px 20px -18px;
+}
+
+#input:focus {
+    border-bottom: 2px solid black;
+    border-radius: 4px 4px 2px 2px;
+}
+
+#input:hover {
+    outline: 1px solid lightgrey;
+}
+
+.p01 {
+    margin-left: 4%;
+}
+
+.p02 {
+    margin-left: 5%;
+}
+
+/* ------------------------------------------ */
+
+/* Modal 1 */
+#mc p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding-top: 100px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+#mc {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 30px 35px 100px 35px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+#modal #b1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#x {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    color: #aaa;
+}
+
+#x:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#modal input {
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+/* ------------------------------------------ */
+
+/* Footer */
+#footer {
+    background-color: rgb(27, 27, 27);
+    height: 400px;
+    width: 100%;
+}
+
+#footer #dv9 {
+    display: flex;
+}
+
+#footer div li,
+h5 {
+    color: grey;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+#footer div a {
+    color: grey;
+    text-decoration: none;
+}
+
+#footer li a:hover {
+    color: white;
+}
+
+#footer li a i {
+    color: #bd0123;
+    font-size: 20px;
+}
+
+#footer #dv9 {
+    padding: 3%;
+}
+
+#footer .dv10 {
+    padding-left: 2%;
+}
+
+#footer #dv11 {
+    padding: 2% 0% 0% 7%;
+}
+
+#footer h5 {
+    margin-left: 30%;
+}
+
+#footer #dv10 {
+    padding: 3%;
+}
+
+#footer #dv12 {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: grey;
+    display: flex;
+}
+
+#footer #dv12 p {
+    margin-left: 40%;
+}
+
+#footer #dv12 ul {
+    display: flex;
+    margin-left: 15%;
+}
+
+#footer #dv12 li {
+    padding-left: 50%;
+}
+
+/* ------------------------------------------ */
+
+/* button */
+button {
+    cursor: pointer;
+}
+
+/* Page Button */
+.btn1 {
+    width: 70%;
+    height: 40px;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.btn1:hover {
+    color: black;
+}
+
+.btn1:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+.btn1:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* --------------- */
+
+/* Modal Button */
+.bn1 {
+    width: 20%;
+    height: 40px;
+    margin: 0.5em;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 13px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.bn1:hover {
+    color: red;
+    border: 1px solid red;
+}
+
+.bn1:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+.bn1:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* ------------------------------------------ */
+
+/* Add To Cart */
+#cart {
+    position: sticky;
+    top: 80px;
+    z-index: 5;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    width: 25%;
+    float: right;
+}
+
+#cart img {
+    margin-left: 0;
+    height: 30px;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    margin-bottom: 5px;
+}
+
+#cart .bn1 {
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #bd0123;
+    border-radius: 0px;
+}
+
+/* ------------------------------------ */
+
+/* M-List */
+#mlist {
+    position: fixed;
+    display: none;
+    background-color: #ffffff;
+    width: 90%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    z-index: 100;
+    padding: 5%;
+    margin-left: -2%;
+    text-align: center;
+    font-size: 15px;
+}
+
+#mlist li {
+    list-style-type: none;
+    color: grey;
+}
+
+#mlist p img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#mlist a {
+    color: black;
+}
+
+#mlist p {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#mlist #x2 {
+    font-size: 40px;
+}
+
+#mlist #x2:hover {
+    color: grey;
+}
+
+/* --------------------------------- */
+
+
+/* Responsive */
+/* Navbar */
+@media screen and (max-width:600px) {
+    #nav {
+        width: 100%;
+        height: 60px;
+    }
+
+    #dv2 #imlogo {
+        height: 25px;
+    }
+
+    #dv3,
+    #dv4 {
+        display: none;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+        background-color: rgb(173, 172, 172);
+    }
+
+    #ic {
+        display: block;
+        font-size: 25px;
+        margin-left: auto;
+    }
+
+    #nav #dv2 {
+        display: block;
+        margin: 20px;
+    }
+
+    #dv3,
+    #dv4 a {
+        display: block;
+        float: none;
+    }
+}
+
+/* SC3 */
+@media screen and (max-width:600px) {
+    #sc3 {
+        width: 100%;
+        height: 50px;
+    }
+
+    #sc3 p {
+        font-size: 10px;
+    }
+
+    #sc3 button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 20px;
+    }
+}
+
+/* Menu */
+@media screen and (max-width:600px) {
+    .sc4 {
+        display: block;
+        width: 100%;
+    }
+
+    #aside1 {
+        display: none;
+    }
+
+    #dv16 #input,
+    #hr01 {
+        display: none;
+    }
+
+    #hr02 {
+        display: block;
+    }
+
+    #d01 {
+        position: sticky;
+        top: 60px;
+        z-index: 100;
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        font-size: 12px;
+    }
+
+    #d01 h2 {
+        font-size: 23px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin-left: 0%;
+    }
+
+    #d03 {
+        padding: 2px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .d04 {
+        padding: 2px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .d04 a li {
+        color: #888;
+        font-weight: bold;
+    }
+
+    .d04 a li:hover {
+        color: #bd0123;
+    }
+}
+
+/* ------------------------------------------------------- */
+
+/* Menu List */
+/* Peri Peri Chicken */
+@media screen and (max-width:600px) {
+    #dv16 {
+        width: 100%;
+    }
+
+    #dv16 button i {
+        font-size: 14px;
+    }
+
+    #dv16 .btn2 {
+        width: 50%;
+        height: 30px;
+        background-color: #bd0123;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #dv16 .btn3 {
+        width: 50%;
+        height: 30px;
+        background-color: #bd0123;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .p01 {
+        margin-left: 0%;
+    }
+
+    .p02 {
+        margin-left: 0%;
+    }
+
+    /* Div 1 */
+    #dv16 .div1 {
+        margin-top: -30px;
+        display: block;
+        width: 100%;
+    }
+
+    .div1 img {
+        height: 150px;
+    }
+
+    /* Div 2 */
+    #dv16 .div2 {
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .div2 img {
+        height: 150px;
+    }
+
+    /* Div 3 */
+    #dv16 .div3 {
+        margin-top: -30px;
+        display: block;
+        width: 100%;
+    }
+
+    .div3 img {
+        height: 150px;
+    }
+
+    /* Div 4 */
+    #dv16 .div4 {
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .div4 img {
+        height: 150px;
+    }
+
+    /* Span 1 */
+    .sp1 {
+        width: 40%;
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    /* Span 2 */
+    .d1 .sp2 {
+        width: auto;
+        font-size: 10px;
+    }
+
+    .sp2 img {
+        height: 10px;
+    }
+
+    .d1 p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/* ------------------------------------------------------ */
+
+/* Footer */
+@media screen and (max-width:600px) {
+    #footer {
+        height: 900px;
+        width: 100%;
+    }
+
+    #footer #dv9 {
+        display: block;
+        padding: 0%;
+        text-align: center;
+    }
+
+    #footer #dv9 h5 {
+        margin-left: 0%;
+    }
+
+    #f5 {
+        margin-top: 20px;
+    }
+
+    #dv10 img {
+        margin-top: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #footer .dv10 ul li {
+        font-size: 12px;
+    }
+
+    #footer .dv10 ul {
+        padding: 0%;
+    }
+
+    #footer .dv10 {
+        padding-left: 0%;
+    }
+
+    #footer #dv12 {
+        display: block;
+        text-align: center;
+        margin-top: 8%;
+    }
+
+    #footer #dv12 p {
+        margin-left: 0%;
+        font-size: 12px;
+    }
+
+    #footer #dv12 ul {
+        margin-left: 30%;
+    }
+
+    #footer #dv12 li {
+        padding-left: 5%;
+    }
+}
+
+/* -------------------------------------------- */
+
+/* Modal */
+@media screen and (max-width:600px) {
+    #mc p{
+        font-size: 15px;
+    }
+
+    #modal #b1{
+        font-size: 13px;
+    }
+
+    #modal{
+        z-index: 150;
+        width: 100%;
+        height: 100%;
+        font-size: 11px;
+    }
+
+    #mc {
+        margin: auto;
+        width: auto;
+    }
+
+    #x {
+        float: right;
+        font-size: 20px;
+    }
+    
+    #modal input {
+        width: 40%;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+
+    #modal img{
+        height: 130px;
+        width: 100px;
+    }
+}
+
+/* ----------------------------------------------------- */
+
+/* Add to Cart */
+@media screen and (max-width:600px) {
+    #cart {
+        position: fixed;
+        right: 0;
+        top: 210px;
+        width: 33%;
+        margin-left: auto;
+        z-index: 100;
+    }
+
+    #cart img {
+        height: 15px;
+    }
+
+    .cart-item {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    #cart #pp {
+        font-size: 10px;
+    }
+
+    #cart .bn1 {
+        width: 100%;
+        height: 25px;
+        cursor: pointer;
+        background-color: #bd0123;
+        border-radius: 0px;
+        margin-left: 0%;
+    }
+}
+
+/* ------------------------------------------------------ */
